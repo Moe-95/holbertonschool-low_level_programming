@@ -1,0 +1,28 @@
+
+4-puts.c:16: ERROR: trailing whitespace
+
+4-puts.c:16: WARNING: please, no spaces at the start of a line
+
+4-puts.c:18: ERROR: trailing whitespace
+
+4-puts.c:18: WARNING: please, no spaces at the start of a line
+
+4-puts.c:19: WARNING: please, no spaces at the start of a line
+
+4-puts.c:20: ERROR: trailing whitespace
+
+4-puts.c:20: WARNING: please, no spaces at the start of a line
+
+4-puts.c:21: WARNING: please, no spaces at the start of a line
+
+4-puts.c:22: ERROR: trailing whitespace
+
+4-puts.c:22: WARNING: please, no spaces at the start of a line
+
+total: 4 errors, 7 warnings, 24 lines checked
+
+4-puts.c:2: warning: Cannot understand
+
+ on line 2 - I thought it was a doc line
+ 
+4-puts.c:15: warning: no description found for function main 0;276;0cq
