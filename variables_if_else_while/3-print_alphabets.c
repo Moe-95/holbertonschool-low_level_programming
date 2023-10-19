@@ -5,13 +5,13 @@
 */
 int main(void)
 {
+int a = 65;
 int i = 97;
 while (i < 123)
 {
 putchar(i);
 i++;
 }
-int a = 65;
 while (a < 91)
 {
 putchar(a);
