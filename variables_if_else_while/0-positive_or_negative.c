@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-*main: this funtion creates a random number
-*return: checks if it is negative positive or zero
+/**
+*main - this funtion creates a random number
+*checks if it is negative positive or zero.
+*Return: Always 0.
 */
 int main(void)
 {
