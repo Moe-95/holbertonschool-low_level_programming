@@ -5,15 +5,19 @@
 */
 int main(void)
 {
-int i = 65;
+int i = 97;
 while (i < 123)
 {
 putchar(i);
-if (i == 90)
-i = 97;
-if (i == 122)
-putchar('\n');
 i++;
+}
+int a = 65;
+while (a < 91)
+{
+putchar(a);
+if (a == 90)
+putchar('\n');
+a++;
 }
 return (0);
 }
