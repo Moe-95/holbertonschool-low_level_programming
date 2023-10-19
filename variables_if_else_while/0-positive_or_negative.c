@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
-*this funtion creates a random number,
-*and checks if it is negative positive or zero
+*main: this funtion creates a random number
+*return: checks if it is negative positive or zero
 */
 int main(void)
 {
