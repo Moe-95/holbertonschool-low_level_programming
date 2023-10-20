@@ -16,5 +16,5 @@ if (i == 122)
 putchar('\n');
 i++;
 }
- return 0;
+return (0);
 }
