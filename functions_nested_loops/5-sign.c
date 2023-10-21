@@ -1,5 +1,4 @@
-
-0;276;0c#include "main.h"
+#include "main.h"
 /**
 *print_sign - Checks if number is positive.
 *@n: number to be checked.
