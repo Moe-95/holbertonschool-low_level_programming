@@ -18,10 +18,16 @@ _putchar(a % 10 + '0');
 }
 else
 _putchar(a + '0');
-if (j < 9)
+if (j < 9 && a <= 9)
 {
 _putchar(',');
-_putchar('\t');
+_putchar(' ');
+_putchar(' ');
+}
+else if (j < 9 && a > 9)
+{
+_putchar(',');
+_putchar(' ');
 }
 j++;
 }
