@@ -1,4 +1,5 @@
-#include "main.h"
+
+0;276;0c#include "main.h"
 /**
 *print_sign - Checks if number is positive.
 *@n: number to be checked.
@@ -7,7 +8,7 @@
 */
 int print_sign(int n)
 {
-if (n < 0)
+if (n > 0)
 {
 _putchar('+');
 return (1);
