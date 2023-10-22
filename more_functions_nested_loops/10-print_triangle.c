@@ -13,7 +13,7 @@ else
 {
 while (size > 0)
 {
-j = size;
+j = size - 1;
 while (j > 0)
 {
 _putchar(' ');
