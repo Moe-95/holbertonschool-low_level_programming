@@ -9,7 +9,7 @@ int i = 0, j;
 if (n <= 0)
 _putchar('\n');
 else
-{  
+{
 while (n > 0)
 {
 j = i;
