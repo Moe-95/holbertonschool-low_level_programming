@@ -5,12 +5,12 @@
 */
 void print_square(int size)
 {
-int i = n, j;
-if (n <= 0)
+int i = size, j;
+if (size <= 0)
 _putchar('\n');
 else
 {
-while (n > 0)
+while (size > 0)
 {
 j = i;
 while (j > 0)
@@ -19,7 +19,7 @@ _putchar('#');
 j--;
 }
 _putchar('\n');
-n--;
+size--;
 }
 }
 }
