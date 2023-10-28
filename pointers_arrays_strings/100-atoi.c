@@ -24,5 +24,7 @@ i++;
 }
 if (sign == -1)
 num = -num;
+if (num < INT_MIN)
+num = INT_MIN;
 return (num);
 }
