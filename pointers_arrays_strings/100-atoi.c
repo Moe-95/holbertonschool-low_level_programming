@@ -18,7 +18,7 @@ dig = 1;
 if (sign == -1)
 num = num * 10 - (s[i] - '0');
 else
-num = num * 10 + (s[i] - '0');   
+num = num * 10 + (s[i] - '0');
 i++;
 }
 if (dig == 1)
