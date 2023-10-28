@@ -18,6 +18,7 @@ while (src[j] != '\0')
 {
 j++;
 }
+k = i + j;
 while (i < k)
 {
 dest[i] = src[q];
