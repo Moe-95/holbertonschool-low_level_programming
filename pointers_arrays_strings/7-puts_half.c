@@ -11,6 +11,9 @@ while (str[i] != '\0')
 {
 i++;
 }
+if (i % 2 != 0)
+a = ((i + 1) / 2);
+else
 a = i / 2;
 while (str[a] != '\0')
 {
