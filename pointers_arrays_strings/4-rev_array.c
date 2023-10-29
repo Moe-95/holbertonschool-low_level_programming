@@ -13,5 +13,6 @@ while (q < (i / 2))
 temp = a[q];
 a[q] = a[(i - 1) - q];
 a[(i - 1) - q] = temp;
+q++;
 }
 }
