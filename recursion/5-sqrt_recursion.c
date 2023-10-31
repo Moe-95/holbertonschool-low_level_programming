@@ -9,12 +9,12 @@
 */
 int prime(int x, int y)
 {
-if (y == 1)
-return (-1);
-else if (x % y == 0 && x / y == y)
+if (y * y == n)
 return (y);
+else if (y * y < n)
+return (prime(n, y + 1);
 else
-return (prime(x, y - 1));
+return (-1);
 }
 /**
 *_sqrt_recursion - find sqrt of a numbers using recursion.
