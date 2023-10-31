@@ -29,5 +29,5 @@ return (-1);
 else if (n == 0 || n == 1)
 return (n);
 else
-return (prime(n, n - 1));
+return (prime(n, 2));
 }
