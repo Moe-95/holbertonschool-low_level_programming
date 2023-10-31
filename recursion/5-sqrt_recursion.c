@@ -9,10 +9,10 @@
 */
 int prime(int x, int y)
 {
-if (y * y == n)
+if (y * y == x)
 return (y);
-else if (y * y < n)
-return (prime(n, y + 1);
+else if (y * y < x)
+return (prime(x, y + 1);
 else
 return (-1);
 }
