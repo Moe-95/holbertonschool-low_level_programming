@@ -22,7 +22,7 @@ return (prime(x, y - 1));
 *
 *Return: sqrt of a number.
 */
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 if (n < 0)
 return (-1);
