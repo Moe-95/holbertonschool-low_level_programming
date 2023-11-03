@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include "main.h"
 /**
 *main - Double 2 arguments.
@@ -10,14 +11,17 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc != 2)
+int a, b;
+if (argc != 3)
 {
 printf("Error\n");
 return (-1);
 }
 else
 {
-printf("%d\n", ((argv[0] -'0') * (argv[1] - '0'));
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+printf("%d\n", a * b);
 }
 return (0);
 }
