@@ -21,4 +21,5 @@ a[i] = c;
 i++;
 }
 return (a);
+return (NULL);
 }
