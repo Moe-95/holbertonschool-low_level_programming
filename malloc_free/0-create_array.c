@@ -17,9 +17,10 @@ if (size <= 0)
 return (NULL);
 while (i < size)
 {
+if (a == NULL)
+return (NULL);
 a[i] = c;
 i++;
 }
 return (a);
-return (NULL);
 }
