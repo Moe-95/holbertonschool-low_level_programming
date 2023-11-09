@@ -18,13 +18,13 @@ while (str[i] != '\0')
 {
 i++;
 }
-a = malloc((sizeof(char) * i) + 1);
+a = malloc((sizeof(char) * i) +1);
 i = 0;
 while (str[i] != '\0')
 {
-a[i] = str[i];
 if (a == NULL)
 return (NULL);
+a[i] = str[i];
 i++;
 }
 return (a);
