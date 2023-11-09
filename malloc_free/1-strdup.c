@@ -20,8 +20,6 @@ a = malloc(sizeof(char) * i);
 i = 0;
 while (str[i] != '\0')
 {
-if (str[i] == NULL)
-return (NULL);
 a[i] = str[i];
 i++;
 }
