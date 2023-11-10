@@ -15,7 +15,7 @@ int i = 0, j = 0;
 int **grid;
 if (width <= 0 || height <= 0)
 return (NULL);
-grid = malloc(sizeof(int) * height);
+grid = malloc(sizeof(int *) * height);
 if (grid == NULL)
 return (NULL);
 while (i < height)
