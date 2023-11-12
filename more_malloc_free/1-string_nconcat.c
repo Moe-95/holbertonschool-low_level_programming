@@ -28,11 +28,21 @@ i = 0;
 while (s1[i] != '\0')
 {
 a[i] = s1[i];
+if (a[i] == NULL)
+{
+free(a);
+return (NULL);
+}
 i++;
 }
 while (s2[j] != '\0' && j < n)
 {
 a[i] = s2[j];
+if (a[i] == NULL)
+{
+free(a);
+return (NULL);
+}
 i++;
 j++;
 }
