@@ -25,7 +25,7 @@ return (NULL);
 if (owner == NULL)
 {
 free(p);
-free(namer);
+free(name);
 return (NULL);
 }
 p->name = name;
