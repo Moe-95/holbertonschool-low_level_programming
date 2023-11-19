@@ -1,21 +1,36 @@
-#ifndef CALCH
-#define CALCH
-
-int op_add(int a, int b);
-int op_sub(int a, int b);
-int op_mul(int a, int b);
-int op_div(int a, int b);
-int op_mod(int a, int b);
-int (*get_op_func(char *s))(int, int);
+#include "3-calc.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
-* struct op - Struct op
+* main - calculates two numbers given a string
 *
-* @op: The operator
-* @f: The function associated
+* @ac: number of arguments
+* @av: array of argument strings
+*
+* Return: 0 on success.
 */
-typedef struct op
+int main(int ac, char *av[])
 {
-char *op;
-int (*f)(int a, int b);
-} op_t;
-#endif
+int a, b;
+int (*f)(int, int);
+if (ac != 4)
+{
+printf("Error\n");
+return (98);
+}
+a = atoi(av[1]);
+b = atoi(av[3]);
+f = get_op_func(av[2]);
+if (f == NULL || av[2][1] != 0)
+{
+printf("Error\n");
+return (99);
+}
+if ((av[2][0] == '/' || av[2][0] == '%') && b == 0)
+{
+printf("Error\n");
+return (100);
+}
+printf("%d\n", f(a, b));
+return (0);
+}
