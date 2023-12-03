@@ -3,9 +3,8 @@
 /**
 *print_list - a function to print the elements of a linkedlist
 *@h: LinkedList
-*@Return: count.
 *
-*Return : count.
+*Return: count.
 */
 size_t print_list(const list_t *h)
 {
