@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/user/Desktop/Holberton/holbertonschool-low_level_programming/bit_manipulation",
-      "program": "c:/Users/user/Desktop/Holberton/holbertonschool-low_level_programming/bit_manipulation/build/Debug/outDebug",
+      "cwd": "c:/Users/user/Desktop/Holberton/holbertonschool-low_level_programming/file_io",
+      "program": "c:/Users/user/Desktop/Holberton/holbertonschool-low_level_programming/file_io/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
