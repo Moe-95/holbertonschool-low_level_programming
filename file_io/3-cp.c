@@ -79,7 +79,8 @@ print_write_error(argv[2]);
 close(fd_from);
 exit(99);
 }
-do {
+do
+{
 bytes_read = read(fd_from, buffer, 1024);
 if (bytes_read == -1)
 {
