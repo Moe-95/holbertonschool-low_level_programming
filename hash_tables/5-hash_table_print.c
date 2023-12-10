@@ -1,6 +1,7 @@
 #include "hash_tables.h"
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 /**
 *hash_table_print - Print a hash table
 *@ht: The hash table to print
