@@ -71,7 +71,8 @@ print_usage_error();
 fd_from = open(argv[1], O_RDONLY);
 if (fd_from == -1)
 print_read_error(argv[1]);
-fd_to = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC,
+fd_to = open(argv[2],
+O_WRONLY | O_CREAT | O_TRUNC,
 S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
 if (fd_to == -1)
 {
@@ -79,8 +80,7 @@ print_write_error(argv[2]);
 close(fd_from);
 exit(99);
 }
-do
-{
+do {
 bytes_read = read(fd_from, buffer, 1024);
 if (bytes_read == -1)
 {
