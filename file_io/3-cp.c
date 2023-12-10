@@ -13,7 +13,7 @@ int main(int ac, char *av[])
 {
 int fd_from, fd_to, rd_stat, wr_stat;
 mode_t perm = S_IRUSR | S_IWUSR | S_IWGRP | S_IRGRP | S_IROTH;
-char buffer[BUFSIZE];
+char buffer[BUFSIZ];
 
 if (ac != 3)
 dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
